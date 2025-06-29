@@ -9,9 +9,9 @@ from langfuse import Langfuse
 from tqdm import tqdm   #进度条组件
 
 #以下几个环境变量，用于对接langFuse的特定Project
-os.environ['LANGFUSE_PUBLIC_KEY']='pk-lf-8d07971c-c11a-4a44-8615-acca4cc32b3c'
-os.environ['LANGFUSE_SECRET_KEY']='sk-lf-95380ac4-045d-4002-b8e6-32e94fbfb470'
-os.environ['LANGFUSE_HOST']='http://127.0.0.1:3000'
+os.environ['LANGFUSE_PUBLIC_KEY']='pk-xxx'
+os.environ['LANGFUSE_SECRET_KEY']='sk-lxxx'
+os.environ['LANGFUSE_HOST']='<langfuse_host>'
 
 #获得一个本地的数据集
 # 这里采用 https://github.com/hiyouga/LLaMA-Factory/blob/main/data/alpaca_zh_demo.json
