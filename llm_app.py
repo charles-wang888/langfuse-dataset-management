@@ -16,8 +16,8 @@ prompt=PromptTemplate.from_template("""
 #待测试的模型
 model = ChatOpenAI(
         model="qwen-turbo",
-        api_key="sk-F0pnFdAs2S7eWqCvCfE792Ea78Fe47A8891bA9Ec8439E66f",
-        base_url="http://llm-gw.sunlinecloud.cn/v1",
+        api_key="sk-xxx",
+        base_url="<base_url>",
         temperature=0,
         model_kwargs={"seed":42}
     )
