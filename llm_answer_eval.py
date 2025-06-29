@@ -11,9 +11,9 @@ from text_similarity_alg import calc_text_similarity
 import os
 
 #以下几个环境变量，用于对接langFuse的特定Project
-os.environ['LANGFUSE_PUBLIC_KEY']='pk-lf-8d07971c-c11a-4a44-8615-acca4cc32b3c'
-os.environ['LANGFUSE_SECRET_KEY']='sk-lf-95380ac4-045d-4002-b8e6-32e94fbfb470'
-os.environ['LANGFUSE_HOST']='http://127.0.0.1:3000'
+os.environ['LANGFUSE_PUBLIC_KEY']='pk-xxx'
+os.environ['LANGFUSE_SECRET_KEY']='sk-xxx'
+os.environ['LANGFUSE_HOST']='<langfuse_host>'
 
 
 langfuse = Langfuse()
